@@ -15,13 +15,13 @@ Test Teardown                                  Teardown
 
 
 *** Test Cases ***
-Test_login_as_normal_user
-    perform_login_normal_user
-    perform_logout
+#Test_login_as_normal_user
+   # perform_login_normal_user
+   # perform_logout
     
-Test_login_as_admin_userssss
-    perform_login_admin_user
-    perform_logout
+#Test_login_as_admin_userssss
+  #  perform_login_admin_user
+  #  perform_logout
     
 Test_create_a_new_user_logging_in_as_normal_user
     perform_login_normal_user
@@ -39,16 +39,16 @@ Test_create_a_new_user_logging_in_as_normal_user
     #Delete_an_existing_client  
     #perform_logout    
 
-Test_navigate_through_the_pages
-    perform_login_admin_user
-    navigate_to_user_page_link_left
-    navigate_to_reservation_page_link_left
-    navigate_to_dasboard_page_link_left
-    navigate_to_client_page_link_left
-    navigate_to_bill_page_link_left
-    navigate_to_bedroom_page_link_left
-    navigate_to_dasboard_top_link    
-    perform_logout
+#Test_navigate_through_the_pages
+  #  perform_login_admin_user
+  #  navigate_to_user_page_link_left
+   # navigate_to_reservation_page_link_left
+   # navigate_to_dasboard_page_link_left
+   # navigate_to_client_page_link_left
+   # navigate_to_bill_page_link_left
+   # navigate_to_bedroom_page_link_left
+   # navigate_to_dasboard_top_link    
+   # perform_logout
     
 Test_create_a_new_client
     perform_login_admin_user
