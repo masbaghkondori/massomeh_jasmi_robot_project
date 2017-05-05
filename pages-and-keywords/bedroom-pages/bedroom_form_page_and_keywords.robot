@@ -49,9 +49,4 @@ create_new_bedroom
     Wait Until Page Contains                            ${bedroom_form_pg_edit_label_on_editpage}
     page should contain                                 ${bedroom_pg_new_price}    
     
-    
-
-
-    
-    
-    
+   

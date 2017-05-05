@@ -3,6 +3,7 @@ Resource                                           ./bedroom-pages/bedroom_list_
 Resource                                           ./bedroom-pages/bedroom_form_page_and_keywords.robot
 Resource                                           ./bill-pages/bill_list_page_and_keywords.robot
 Resource                                           ./bill-pages/bill_form_page_and_keywords.robot
+
 Resource                                           ./user-pages/user_list_page_and_keywords.robot
 
 
@@ -70,7 +71,6 @@ perform_search
     Input Text                                     ${dashboard_pg_search_field}               ${dashboard_pg_search_input}
     Click Element                                  ${dashboard_pg_search_button} 
          
-    Wait Until Page Contains(5s)                   ${dashboard_pg_search_search_results} 
+    Wait Until Page Contains                   ${dashboard_pg_search_search_results} 
 
-    
     

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 *** Settings ***
@@ -34,16 +35,3 @@ Delete_an_existing_bill
     click element                                ${bill_create_form_pg_button_show_bills}
     Wait until page contains                     ${bill_list_pg_label_on_page}
     Page should contain                   	     ${bill_Reservation} 
-
-  
-  
-
-
-
-    
-    
-
-
-                                      
-
-

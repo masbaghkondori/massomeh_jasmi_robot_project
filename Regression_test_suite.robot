@@ -50,3 +50,13 @@ Test_delete&create_bill_logging_in_as_admin_user
    Delete_an_existing_bill
    Create_new_pay_bill 
    perform_logout  
+   
+ 
+   
+  
+   
+   
+   
+   
+   
+          
