@@ -3,9 +3,7 @@ Resource                                           ./bedroom-pages/bedroom_list_
 Resource                                           ./bedroom-pages/bedroom_form_page_and_keywords.robot
 Resource                                           ./bill-pages/bill_list_page_and_keywords.robot
 Resource                                           ./bill-pages/bill_form_page_and_keywords.robot
-Resource                                           ./client-pages/client_list_page_and_keywords.robot
-Resource                                           ./client-pages/client_form_page_and_keywords.robot
-Resource                                           ./reservation-pages/reservation_list_page_and_keywords.robot
+
 Resource                                           ./user-pages/user_list_page_and_keywords.robot
 
 
@@ -56,16 +54,9 @@ navigate_to_bill_page_link_left
     click element                                  ${dashboard_pg_left_link_bill} 
     Wait until page contains                       ${bill_pg_label_on_page}
     
-navigate_to_client_page_link_left
-    Page should contain element                    ${dashboard_pg_left_link_client}
-    click element                                  ${dashboard_pg_left_link_client}
-    Wait until page contains                       ${client_list_pg_label_on_page}
+
     
-navigate_to_reservation_page_link_left
-    Page should contain element                    ${dashboard_pg_left_link_reservation}
-    click element                                  ${dashboard_pg_left_link_reservation}
-    Wait until page contains                       ${reservation_pg_label_on_page}
-    
+
 navigate_to_user_page_link_left
     Page should contain element                    ${dashboard_pg_left_link_user}
     click element                                  ${dashboard_pg_left_link_user}
@@ -80,16 +71,6 @@ perform_search
     Input Text                                     ${dashboard_pg_search_field}               ${dashboard_pg_search_input}
     Click Element                                  ${dashboard_pg_search_button} 
          
-    Wait Until Page Contains(5s)                   ${dashboard_pg_search_search_results} 
-   
-    
+    Wait Until Page Contains                   ${dashboard_pg_search_search_results} 
 
-    
-    
-    
-    
-    
-    
-    
-    
     

@@ -35,12 +35,5 @@ navigate_to_bedroom_edit_page
     Page should contain element                ${bedroom_list_pg_button_edit_bedroom}  
     Click element                              ${bedroom_list_pg_button_edit_bedroom}
     Wait until page contains                   ${bedroom_form_pg_edit_label_on_page}
-    
-    
-    
-    
-    
-    
-    
-    
+
     
