@@ -1,8 +1,9 @@
+
+
 *** Variables ***
-${user_pg_label_on_page}                   List
+${user_pg_label_on_page}                       List
 ${User_form_pg_label_on_page}                  Create New User
 ${User_form_pg_access_denied_message}          Access Denied!
-
 ${User_create_form_pg_button_create}           xpath=//*[@id="j_idt49"]/a[1]
 
 
